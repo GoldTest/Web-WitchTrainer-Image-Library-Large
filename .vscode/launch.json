@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "type": "node",
             "request": "launch",
@@ -18,7 +19,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Home Chrome",
-            "url": "D:\\Program Files\\WebProject\\GitProject\\index.html",
+            "url": "D:\\Program Files\\WebProject\\Web-WitchTrainer-Image-Library-Large\\index.html",
             "webRoot": "${workspaceFolder}"
         },
         {

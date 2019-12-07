@@ -155,8 +155,9 @@ class BodyshopView {
         });
       } else {
         $('#' + category).css({
-          backgroundImage: "url(" + that.itemSrc(category, name) + ")"
+          backgroundImage: "url(" + that.itemSrc(category, name) + ")","background-size":"contain"
         });
+
       }
       that.storage.add(category, name);
     };
@@ -256,8 +257,10 @@ class WardrobeView {
       } else {
         // Dresses the item
         $('#' + category).css({
-          backgroundImage: "url(" + that.itemSrc(category, name) + ")"
+          backgroundImage: "url(" + that.itemSrc(category, name) + ")","background-size":"contain"
         });
+
+
         that.storage.add(category, name);
         // Check for body overwrite
         var splitOptions = name.split("/");

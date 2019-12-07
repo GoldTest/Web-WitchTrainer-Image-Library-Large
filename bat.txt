@@ -1,0 +1,2 @@
+@echo off
+dir 'D:\Program Files\WebProject\Web-WitchTrainer-Image-Library-Large\' *.* > 文件名.txt
